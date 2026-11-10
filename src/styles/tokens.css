@@ -1,0 +1,47 @@
+:root {
+  /* Surfaces: deep blue-black "ink" with slightly lighter layers */
+  --ink: #0a0e14;
+  --surface-1: #0f141c;
+  --surface-2: #151b26;
+  --surface-3: #1c2431;
+  --border: #243044;
+  --border-soft: rgba(255, 255, 255, 0.07);
+
+  /* Text */
+  --text: #e8edf5;
+  --text-muted: #93a1b8;
+  --text-faint: #62708a;
+
+  /* Accent: teal into blue, used for progress and primary actions */
+  --accent: #4fd8c4;
+  --accent-2: #5b9dff;
+  --accent-grad: linear-gradient(120deg, var(--accent), var(--accent-2));
+  --accent-soft: rgba(79, 216, 196, 0.12);
+
+  /* Status */
+  --success: #4ade80;
+  --warning: #f5b84b;
+  --danger: #f2706d;
+
+  /* Type */
+  --font-display: 'Space Grotesk Variable', 'Segoe UI', sans-serif;
+  --font-body: 'IBM Plex Sans', 'Segoe UI', system-ui, sans-serif;
+
+  /* Type scale (1.25 ratio) */
+  --fs-xs: 0.78rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.563rem;
+  --fs-2xl: 1.953rem;
+  --fs-3xl: clamp(2.2rem, 4.5vw, 3.6rem);
+
+  /* Spacing and shape: radius varies with element size on purpose */
+  --sp-1: 0.25rem; --sp-2: 0.5rem; --sp-3: 0.75rem; --sp-4: 1rem;
+  --sp-5: 1.5rem; --sp-6: 2rem; --sp-7: 3rem; --sp-8: 5rem;
+  --r-sm: 6px; --r-md: 10px; --r-lg: 16px; --r-pill: 999px;
+
+  --sidebar-w: 248px;
+  --topbar-h: 60px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
